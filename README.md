@@ -1,4 +1,6 @@
 # Performance Tests
+Getting decent performance metrics from GPU code can be a chore, so we'll try to explain it here.
+For more information, please consult: https://juliagpu.gitlab.io/CUDA.jl/development/profiling/.
 For this example, we will be creating a CUDA.jl example and running it in both nvvp and Nsight. First, let's create a basic vector addition example...
 
 ```
